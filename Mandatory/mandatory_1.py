@@ -36,7 +36,11 @@ print(employeesThatAreNotManagerAndDirector)
 #Assignment 2
 print('\nAssignment 2')
 #Using a list comprehension create a list of tuples from the folowing datastructure
-datastructure = {'a': 'Alpha', 'b': 'Beta', 'g': 'Gamma'}
+datastructure = {
+    'a': 'Alpha',
+    'b': 'Beta',
+    'g': 'Gamma'
+    }
 newTuple = [(k, v) for k, v in datastructure.items()]
 print(newTuple)
 
